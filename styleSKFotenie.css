@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-image: url('img/pexels-pixabay-531880.jpg');
+ backdrop-filter: blur(4px);
+
+}
+
+.foto{
+    width: 24%;
+    padding: 5px;
+    background: linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../img/bg.jpg.jpg');
+}
+
+.nv{
+    width: 11.75%;
+    padding: 5px;
+    background: linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../img/bg.jpg.jpg');
+}
+
+
+.ig{
+    width: 45px;
+    margin: 1%;
+}
+
+
+.fot{
+    text-align: center;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 4.7rem;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient( rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/bg.jpg.jpg');
+}
+
+footer{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    background: linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../img/bg.jpg.jpg');
+}
+
+.dom{
+    width: 70px;
+    padding: 4px;
+    margin: 5px;
+    background: linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../img/bg.jpg.jpg');
+}
+
+
+
+h3{
+    
+    padding: 22px;
+    color: rgb(252, 252, 252);
+    font-weight: 300;
+}
+
+.ko{
+    color: aliceblue;
+    padding: 20px;
+}
+
+
+
+
+@media(max-width:1068px) {
+
+.foto{
+    width: 64%;
+}
+
+.ig{
+    width: 37px;
+    margin: 1%;
+}
+
+.nv{
+    width: 42%;
+    padding: 1%;
+}
+
+}
+
+@media(max-width:768px) {
+
+    h1{text-align: center;
+        font-size: 3.7rem;
+        padding: 5px;
+        color: rgb(255, 255, 255);
+       
+
+}
+
+.ig{
+    width: 29px;
+    margin: 1%;
+}
+
+}
+
+
+
+@media(max-width:568px) {
+
+    h1{
+        text-align: center;
+        font-size: 2.7rem;
+        padding: 5px;
+        color: rgb(255, 255, 255);
+        font-weight: 100;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background: linear-gradient( rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/bg.jpg.jpg');
+    }
+
+
+
+footer{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    
+    font-size: 0.7rem;
+}
+
+
+
+}
+
+
