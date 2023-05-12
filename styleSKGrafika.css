@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    
+    background: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url('../img/bg.jpg.jpg');
+}
+
+.foto{
+    width: 24%;
+    padding: 1%;
+    
+}
+
+.foto1{
+    width: 34%;
+    padding: 1%;
+}
+
+.foto2{
+    width: 34%;
+    padding: 1%;
+}
+
+
+.fot{
+    text-align: center;
+    
+}
+
+h1{
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+}
+
+.dom{
+    width: 8%;
+    padding: 4px;
+}
+
+
+
+h3{
+    
+    padding: 22px;
+    color: rgb(252, 252, 252);
+    font-weight: 300;
+}
+
+.ko{
+    color: aliceblue;
+    padding: 20px;
+}
+
+
+.lg{
+    margin: 10px;
+}
+
+@media(max-width:1068px) {
+
+.foto{
+    width: 84%;
+}
+
+
+
+}
+
+@media(max-width:768px) {
+
+   
+
+
+
+
+
+
+
+}
+
+
+
+@media(max-width:568px) {
+
+  
+
+
+
+footer{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.7rem;
+}
+
+
+
+
+
+}
+
+
