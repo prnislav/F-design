@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font-size: 4.7rem;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+body{
+    
+    background: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url('../img/bg.jpg.jpg');
+}
+
+.grafika{
+    width: 49%;
+    padding: 1rem;
+    
+    
+}
+
+.jazyk{
+    width: 1%;
+    float: left;
+    padding: 0px;
+    outline: 0.1px solid black;
+    margin: 0 3px 0 3px;
+}
+
+
+
+
+.text{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    padding: 1%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
+
+
+footer{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+}
+
+h3{
+    
+    padding: 22px;
+    color: rgb(252, 252, 252);
+    font-weight: 300;
+}
+
+.ko{
+    color: aliceblue;
+    padding: 20px;
+}
+
+
+.lg{
+    margin: 10px;
+}
+
+@media(max-width:1068px) {
+.grafika{
+    width: 81%;
+    margin-left: 9%;
+}
+
+.jazyk, .cz{
+    width: 2%;
+}
+
+
+}
+
+@media(max-width:768px) {
+
+    h1{text-align: center;
+        font-size: 3.7rem;
+        padding: 5px;
+        color: rgb(255, 255, 255);
+        font-weight: 7%;
+
+}
+
+.jazyk, .cz{
+    width: 2%;
+}
+
+.text{
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    padding: 1%;
+}
+
+
+
+}
+
+
+
+@media(max-width:568px) {
+
+    h1{text-align: center;
+        font-size: 2.7rem;
+        padding: 5px;
+        
+        color: rgb(255, 255, 255);
+        font-weight: 7%;
+
+        
+}
+
+
+
+footer{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.7rem;
+}
+
+
+
+
+.jazyk, .cz{
+    width: 2%;
+}
+}
+
+
