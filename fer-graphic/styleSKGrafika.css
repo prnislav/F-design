@@ -1,0 +1,283 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-image: url('img/bg_bggenerator_com\ \(8\).jpg');
+    backdrop-filter: blur(5px);
+    
+}
+.logo4{
+    margin-top: 15px;
+    margin-left: 32.5%;
+    width: 35%;
+    transition: all 0.2s;
+}
+
+
+
+
+@media(min-width:815px) {
+    
+    .logo4:hover{
+       /* margin-left: 36.5%;
+        /*width: 27%;*/
+        transform: scale(1.1);
+    }
+}
+
+@media(max-width:1215px) {
+    
+    .logo4{
+        margin-left: 24.5%;
+        width: 51%;
+        
+    }
+
+    .logo4:hover{
+        transform: scale(1.1);
+    }
+}
+
+@media(max-width:815px) {
+    
+    .logo4{
+        margin-left: 19.5%;
+        width: 61%;
+        
+    }
+
+    .logo4:hover{
+        transform: scale(1.1);
+
+    }
+}
+
+
+
+.fot{
+    text-align: center;
+    
+}
+
+.foto,.foto3{
+    width: 18%;
+    margin: 5px;
+    padding: 5px;
+    background: linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../img/bg.jpg.jpg');
+    
+}
+
+
+.foto5{
+    width: 17.5%;
+    margin: 5px;
+    padding: 5px;
+    background: linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../img/bg.jpg.jpg');
+    
+}
+
+.foto1{
+    width: 34%;
+    margin: 5px;
+    padding: 5px;
+    background: linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../img/bg.jpg.jpg');
+}
+
+.foto2{
+    width: 34%;
+    margin: 5px;
+    padding: 5px;
+    background: linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../img/bg.jpg.jpg');
+}
+
+
+.foto4{
+    width: 69%;
+    margin: 5px;
+    padding: 5px;
+    background: linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../img/bg.jpg.jpg');
+}
+
+
+
+
+.Om{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+}
+
+h3{
+    
+    padding: 22px;
+    color: rgb(252, 252, 252);
+    font-weight: 300;
+}
+
+.tel{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+}
+
+.tel:hover{
+    color:#76F3A8;
+    transition: all 0.1s ;
+    
+}
+
+.Om{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+}
+
+.Om:hover{
+    color:#76F3A8;
+    transition: all 0.1s ;
+}
+
+
+.ko{
+    color: aliceblue;
+    padding: 20px;
+}
+
+
+footer{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5));
+}
+
+.ig{
+    width: 40px;
+    margin: 1%;
+    transition: all 0.2s;
+}
+
+.ig:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+@media(max-width:1330px) {
+
+.foto{
+    width: 35%;
+    padding: 15px;
+    margin: 1%;
+}
+ 
+.foto3{
+    width: 35%;
+    padding: 15px;
+    margin: 1%;
+}
+
+.foto4{
+    width: 69%;
+    padding: 15px;
+    margin: 1%;
+    
+}
+
+.foto1{
+width: 35%;
+padding: 15px;
+margin: 1%;
+}
+
+.foto2{
+    width: 35%;
+    padding: 15px;
+    margin: 1%;
+}
+
+
+}
+
+
+
+
+
+@media(max-width:768px) {
+
+   
+
+.foto{
+    width: 88%;
+    padding: 15px;
+    margin: 1%;
+}
+ 
+.foto3{
+    width: 88%;
+    padding: 15px;
+    margin: 1%;
+}
+
+
+.foto4{
+    width: 88%;
+    padding: 15px;
+    margin: 1%;
+    
+}
+
+
+.foto1{
+    width: 88%;;
+    padding: 15px;
+    margin: 1%;
+}
+
+.foto2{
+    width: 88%;
+    padding: 15px;
+    margin: 1%;
+}
+
+
+
+}
+
+
+
+@media(max-width:568px) {
+
+footer{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    
+    font-size: 0.7rem;
+}
+
+
+
+
+
+}
+
+
